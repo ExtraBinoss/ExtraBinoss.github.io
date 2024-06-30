@@ -66,6 +66,7 @@ body, html {
 
 #flag-fr {
     cursor: pointer;
+    user-select: none;
     display: none;
     transition: transform 0.2s;
     user-select: none;
@@ -78,6 +79,7 @@ body, html {
 #flag-en {
     cursor: pointer;
     display:none;
+    user-select: none;
     transition: transform 0.2s;
     user-select: none;
 }

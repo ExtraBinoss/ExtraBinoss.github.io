@@ -14,13 +14,15 @@ export function updateFlag() {
 }
 
 export function changeLanguage(lang) {
-    fetch(`/translations/${lang}.json`)
+    console.log('Changing language to:', lang);
+    //fetch(`translations/${lang}.json`)
+    fetch(`/ExtraBinoss.github.io/translations/${lang}.json`)
         .then(response => response.json())
         .then(translations => {
             document.querySelectorAll('[data-translate-key]').forEach(element => {
                 const key = element.getAttribute('data-translate-key');
                 if (translations[key]) {
-                    element.textContent = translations[key];
+                    element.innerHTML = translations[key];
                 }
             });
         })

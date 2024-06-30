@@ -10,9 +10,15 @@
     <title>Project Page</title>
 </head>
 <body>
+    <div class="back-to-home-container">
+        <a href="../index.html" class="back-to-home-link" data-translate-key="backHome">
+            ← Back to Home
+        </a>
+    </div>
     <div class="project-container" data-translate-key="project-intro">
         <div id="markdown-container">Loading...</div>
         <script src ="../render_markdown/marked.js" data-markdown-path="../projects-markdowns/project-cpu/Intel-markdown.md" data-element-id="markdown-container"></script>
     </div>
+    <script type="module" src = "../events.js"></script>
 </body>
 </html>

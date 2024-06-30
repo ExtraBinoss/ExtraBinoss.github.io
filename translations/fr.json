@@ -1,8 +1,11 @@
 {
     "userInfo": "Alan, 19",
-    "content": "Développeur logiciel, actuellement en deuxième année à Epitech Montpellier",
-    "intelProcessorsComparator": "Ceci est un site de comparaison de processeurs CPU.",
-    "minimalistTypeWriter": "Une expérience de dactylographie minimaliste.",
+    "content": "Développeur logiciel, actuellement en deuxième année à Epitech Montpellier. En savoir plus <a href=\"pages/aboutme.html\" class=\"a-hover\">À propos de moi</a>.",
+    "intelProcessorsComparator": "Un site de comparaison de processeurs CPU.",
+    "minimalistTypeWriter": "Une expérience d'écriture minimaliste.",
     "vampireSurvivor": "Survivez à la nuit dans ce jeu sur le thème des vampires.",
-    "githubProjects": "Plus de projets sur mon GitHub."
+    "githubProjects": "Plus de projets sur mon GitHub.",
+    "backHome": "← Retour à l'accueil",
+    "AboutMe": "À propos de moi",
+    "AboutMeParagraph": "👋 Salut, je m'appelle Alan, je suis un développeur logiciel à Epitech. J'ai étudié divers langages de programmation tels que le C, C++, Python et JavaScript. <br><br> J'essaie de construire des projets innovants et je suis toujours à la recherche de nouveaux défis. <br><br> Je suis actuellement à la recherche d'un stage de 5 mois pour Mars 2025 en France."
 }
