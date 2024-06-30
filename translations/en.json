@@ -1,4 +1,8 @@
 {
     "userInfo": "Alan, 19",
-    "content": "Software developer, currently in second year at Epitech Montpellier"
+    "content": "Software developer, currently in second year at Epitech Montpellier",
+    "intelProcessorsComparator": "This is a CPU comparison website.",
+    "minimalistTypeWriter": "A minimalist typing experience.",
+    "vampireSurvivor": "Survive the night in this vampire-themed game.",
+    "githubProjects": "More projects on my GitHub."
 }

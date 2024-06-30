@@ -1,0 +1,66 @@
+pre {
+    display: block;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    background-color: #161B22; /* Light grey background */
+    color: --text-color; /* Text color */
+    padding: 10px; /* Padding inside the code block */
+    margin: 1em 0; /* Margin above and below the code block */
+    overflow: auto; /* Adds a scrollbar if the content is wider than the block */
+    border-radius: 5px; /* Optional: Rounds the corners of the code block */
+    border: 1px solid #ccc; /* Optional: Adds a border around the code block */
+    white-space: pre-wrap; /* Ensures that long lines are wrapped */
+}
+
+a {
+    color: #E4E4E4;
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the link bold */
+    position: relative; /* Required for the pseudo-elements to position correctly */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #007BFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+ul {
+    font-size: 1.2em; /* Increase font size */
+    color: var(--text-color); /* Use the text color variable for consistency */
+    padding-left: 2.5em; /* Add some padding to the left for better alignment */
+    list-style-type: circle; /* Change bullet style, optional */
+    word-wrap: break-word;
+}
+
+ul li {
+    margin-bottom: 10px; /* Add space between list items */
+    word-wrap: break-word;
+}
+
+ul li a {
+    color: #4A90E2; /* Bright link color for better visibility */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+ul li a:hover {
+    color: #0365d6; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover for emphasis */
+}

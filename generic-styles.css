@@ -1,0 +1,82 @@
+:root {
+    --background-color: #181818;
+    --text-color: #E4E4E4;
+    --max-width: 600px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: left;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 3em auto 0;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+p {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    font-weight: 0;
+    word-wrap: break-word;
+    max-width: 600px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content to the left within the centered container */
+    max-width: var(--max-width);
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    border-left: 200px solid var(--border-color); /* Fine line on the left */
+    border-right: 100px solid var(--border-color); /* Fine line on the right */
+}
+
+.separator {
+    border: 0;
+    height: 2px;
+    background-color: #E4E4E4;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/*Ensure the scrollbar is hidden, and thinner, more minimalist.*/
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* For other browsers, make the scrollbar thin and less noticeable */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .title, .paragraph {
+        width: 90%;
+    }
+}

@@ -1,4 +1,8 @@
 {
     "userInfo": "Alan, 19",
-    "content": "Développeur logiciel, actuellement en deuxième année à Epitech Montpellier"
+    "content": "Développeur logiciel, actuellement en deuxième année à Epitech Montpellier",
+    "intelProcessorsComparator": "Ceci est un site de comparaison de processeurs CPU.",
+    "minimalistTypeWriter": "Une expérience de dactylographie minimaliste.",
+    "vampireSurvivor": "Survivez à la nuit dans ce jeu sur le thème des vampires.",
+    "githubProjects": "Plus de projets sur mon GitHub."
 }
