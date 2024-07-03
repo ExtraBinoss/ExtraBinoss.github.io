@@ -7,16 +7,16 @@ body, html {
   
 .content-container {
     display: flex;
-    flex-direction: column; /* This ensures items are stacked vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    border-left: 200px solid #000; /* Fine line on the left */
-    border-right: 100px solid #000; /* Fine line on the right */
+    border-left: 200px solid #000;
+    border-right: 100px solid #000;
 }
 
 .main-title {
-    max-width: 600px; /* Adjust based on your preference */
+    max-width: 600px;
     text-align: left;
     margin: 3em auto 0;
     color: #E4E4E4;
@@ -37,8 +37,8 @@ body, html {
 }
 
 .paragraph {
-    word-wrap: break-word; /* Ensures text wraps to avoid overflow */
-    max-width: 600px; /* Adjust based on your preference */
+    word-wrap: break-word;
+    max-width: 600px;
     text-align: left;
     margin: 0 auto;
     color: #E4E4E4;
@@ -107,15 +107,19 @@ body, html {
 }
 
 a.a-hover {
-    color: #E4E4E4; /* Initial color */
-    text-decoration: underline; /* Removes underline */
-    font-weight: 500; /* Makes the link bold */
-    transition: color 0.3s ease, transform 0.8s ease; /* Smooth transition for color and transform */
+    color: #E4E4E4;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.8s ease;
     text-align: center;
     width:100%;
+    background-image: linear-gradient(#E4E4E4, #E4E4E4); /*Making the underline smaller*/
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
 }
 
 a.a-hover:hover {
-    color: #186bc5; /* Darker shade on hover */
-    text-decoration: underline; /* Add underline on hover for emphasis */
+    color: #186bc5;
+    text-decoration: underline;
 }

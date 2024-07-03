@@ -7,5 +7,32 @@
     "githubProjects": "Plus de projets sur mon GitHub.",
     "backHome": "← Retour à l'accueil",
     "AboutMe": "À propos de moi",
-    "AboutMeParagraph": "👋 Salut, je m'appelle Alan, je suis un développeur logiciel à Epitech. J'ai étudié divers langages de programmation tels que le C, C++, Python et JavaScript. <br><br> J'essaie de construire des projets innovants et je suis toujours à la recherche de nouveaux défis. <br><br> Je suis actuellement à la recherche d'un stage de 5 mois pour Mars 2025 en France."
+    "AboutMeParagraph": {
+        "greeting": "👋 Salut, je m'appelle Alan, je suis un développeur logiciel à Epitech.",
+        "studies": "J'ai étudié divers langages de programmation tels que le C, C++, Python et JavaScript.",
+        "projects": "J'essaie de construire des projets innovants et je suis toujours à la recherche de nouveaux défis.",
+        "internship": "Je suis actuellement à la recherche d'un stage de 5 mois pour Mars 2025 en France.",
+        "contact": "N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez travailler avec moi."
+    },
+    "HardSkills": {
+        "languages": "Langages : C, C++, Python, HTML, CSS, JavaScript",
+        "cyberSecurity": "Cybersécurité : CTF",
+        "devOps": "DevOps : Docker, Jenkins, Ansible",
+        "webDevelopment": "Développement Web : Node.js, Express",
+        "network": "Réseau : TCP/IP"
+    },
+    "SoftSkills": {
+        "teamwork": "Travail d'équipe",
+        "communication": "Communication",
+        "problemSolving": "Résolution de problèmes",
+        "adaptability": "Adaptabilité",
+        "timeManagement": "Gestion du temps",
+        "leadership": "Leadership",
+        "autonomy": "Autonomie"
+    },
+    "Hobbies": {
+        "sports": "Sports (salle de sport)",
+        "music": "Musique",
+        "learning": "Apprendre de nouvelles choses"
+    }
 }

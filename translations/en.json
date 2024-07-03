@@ -1,11 +1,38 @@
 {
     "userInfo": "Alan, 19",
-    "content": "Développeur logiciel, actuellement en deuxième année à Epitech Montpellier More <a href=\"pages/aboutme.html\" class=\"a-hover\">about me</a>.",
+    "content": "Développeur logiciel, currently in second year at Epitech Montpellier More <a href=\"pages/aboutme.html\" class=\"a-hover\">about me</a>.",
     "intelProcessorsComparator": "This is a CPU comparison website.",
     "minimalistTypeWriter": "A minimalist typing experience.",
     "vampireSurvivor": "Survive the night in this vampire-themed game.",
     "githubProjects": "More projects on my GitHub.",
     "backHome": "← Back to home",
     "AboutMe": "About me",
-    "AboutMeParagraph": "👋 Hey, I'm Alan, a software developper at Epitech. I studied various programming languages such as C, C++, Python, and JavaScript. <br><br> I try to build innovative projects and I'm always looking for new challenges. <br><br> I'm currently looking for a 5 month internship for March 2025 in France."
+    "AboutMeParagraph": {
+        "greeting": "👋 Hey, I'm Alan, a software developer at Epitech.",
+        "studies": "I studied various programming languages such as C, C++, Python, and JavaScript.",
+        "projects": "I try to build innovative projects and I'm always looking for new challenges.",
+        "internship": "I'm currently looking for a 5 month internship for March 2025 in France.",
+        "contact": "Feel free to contact me if you have any questions or if you want to work with me."
+    },
+    "HardSkills": {
+        "languages": "Languages: C, C++, Python, HTML, CSS, JavaScript",
+        "cyberSecurity": "Cybersecurity: CTF",
+        "devOps": "DevOps: Docker, Jenkins, Ansible",
+        "webDevelopment": "Web Development: Node.js, Express",
+        "network": "Network: TCP/IP"
+    },
+    "SoftSkills": {
+        "teamwork": "Teamwork",
+        "communication": "Communication",
+        "problemSolving": "Problem Solving",
+        "adaptability": "Adaptability",
+        "timeManagement": "Time Management",
+        "leadership": "Leadership",
+        "autonomy": "Autonomy"
+    },
+    "Hobbies": {
+        "sports": "Sports (gym)",
+        "music": "Music",
+        "learning": "Learning about new things"
+    }
 }

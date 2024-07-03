@@ -90,8 +90,8 @@ img {
 }
 
 .paragraph {
-    word-wrap: break-word; /* Ensures text wraps to avoid overflow */
-    max-width: 600px; /* Adjust based on your preference */
+    word-wrap: break-word;
+    max-width: 600px;
     text-align: left;
     margin: 0 auto;
     color: #E4E4E4;
@@ -114,13 +114,47 @@ img {
 }
 
 .back-to-home-link:hover {
-    color: #4A90E2; /* Change color on hover */
-    text-decoration: underline; /* Add underline on hover for emphasis */
+    color: #4A90E2;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1em;
+    list-style-type: none;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.list li::before {
+    content: "• ";
+    color: var(--text-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list li {
+    padding: -1em;
+    font-size: 1.2em;
+    word-wrap: break-word;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    .title, .paragraph {
-        width: 90%;
+    * {
+        width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    #flag-fr, #flag-en {
+        display: inline-block;
+        width: 1em;
     }
 }
