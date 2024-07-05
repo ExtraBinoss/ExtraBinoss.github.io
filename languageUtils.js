@@ -17,8 +17,8 @@ export function updateFlag(lang) {
 
 export function changeLanguage(lang) {
     console.log('Changing language to:', lang);
-    fetch(`translations/${lang}.json`)
-    //fetch(`/ExtraBinoss.github.io/translations/${lang}.json`)
+    //fetch(`translations/${lang}.json`)
+    fetch(`https://extrabinoss.github.io/translations/${lang}.json`)
         .then(response => response.json())
         .then(translations => {
             document.querySelectorAll('[data-translate-key]').forEach(element => {
