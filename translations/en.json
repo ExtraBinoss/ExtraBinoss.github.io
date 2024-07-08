@@ -31,6 +31,7 @@
         "autonomy": "Autonomy"
     },
     "Hobbies": {
+        "myHobbies": "My hobbies:",
         "sports": "Sports (gym)",
         "music": "Music",
         "learning": "Learning about new things"
