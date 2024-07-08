@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../generic-styles.css">
+    <link rel = "stylesheet" href = "../markdown-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <title>Project Page</title>
+</head>
+<body>
+    <div class="back-to-home-container">
+        <a href="../index.html" class="back-to-home-link" data-translate-key="backHome">
+            ← Back to Home
+        </a>
+    </div>
+    <div class="project-container" data-translate-key="project-intro">
+        <div id="markdown-container">Loading...</div>
+        <script src ="../render_markdown/marked.js" data-markdown-path="../projects-markdowns/zappy/zappy.md" data-element-id="markdown-container"></script>
+    </div>
+    <script type="module" src = "../events.js"></script>
+</body>
+</html>
