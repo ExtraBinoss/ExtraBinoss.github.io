@@ -15,6 +15,7 @@
         "contact": "N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez travailler avec moi."
     },
     "HardSkills": {
+        "myHardSkills": "Mes Hard Skills :",
         "languages": "Langages : C, C++, Python, HTML, CSS, JavaScript",
         "cyberSecurity": "Cybersécurité : CTF",
         "devOps": "DevOps : Docker, Jenkins, Ansible",
@@ -22,6 +23,7 @@
         "network": "Réseau : TCP/IP"
     },
     "SoftSkills": {
+        "mySoftSkills": "Mes Soft Skills: ",
         "teamwork": "Travail d'équipe",
         "communication": "Communication",
         "problemSolving": "Résolution de problèmes",
